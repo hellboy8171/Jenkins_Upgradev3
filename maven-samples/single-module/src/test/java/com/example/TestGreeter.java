@@ -54,7 +54,7 @@ public class TestGreeter {
   // ✅ Toggle-able Test: Can pass or fail by changing flag
   @Test
   public void togglePassOrFail() {
-    boolean shouldPass = false; // 🔄 change this to false to make test fail intentionally
+    boolean shouldPass = true; // 🔄 change this to false to make test fail intentionally
     String someone = "Charlie";
     String greeting = greeter.greet(someone);
 
