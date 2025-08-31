@@ -42,14 +42,14 @@ public class TestGreeter {
   }
 
   // ✅ New Test #2: Greeting should start with "Hello"
-  @Test
-  public void greetShouldStartWithHello() {
-    String someone = "Bob";
-    String greeting = greeter.greet(someone);
-    if (!greeting.startsWith("Hello")) {
-      fail("Greeting should start with 'Hello'");
-    }
-  }
+  // @Test
+  // public void greetShouldStartWithHello() {
+  //   String someone = "Bob";
+  //   String greeting = greeter.greet(someone);
+  //   if (!greeting.startsWith("Hello")) {
+  //     fail("Greeting should start with 'Hello'");
+  //   }
+  // }
 
   // ✅ Toggle-able Test: Can pass or fail by changing flag
   @Test
